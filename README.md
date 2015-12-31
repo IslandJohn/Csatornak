@@ -1,2 +1,2 @@
 # Csatornak
-Kodi plugins to stream Hungarian TV channels.
+Csatornak (Channels) is a set of Kodi (XBMC) video plugins to scrape and stream live Hungarian TV channels.
