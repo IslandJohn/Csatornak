@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.MTV1" name="MTV1" version="0.0.1" provider-name="IslandJohn">
+<addon id="plugin.video.MTV1" name="MTV1" version="0.0.2" provider-name="IslandJohn">
 	<requires>
 		<import addon="xbmc.python" version="2.6.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
 	</requires>
-	<extension point="xbmc.python.script" library="addon.py" />
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+  	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>MTV 1</summary>
 		<description>Stream MTV 1 live.</description>
