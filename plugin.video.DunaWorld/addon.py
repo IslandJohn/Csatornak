@@ -8,7 +8,7 @@ from BeautifulSoup import BeautifulSoup
 print "Starting..."
 
 # setup
-cs_url = "http://admin.gamaxmedia.hu/player-inside-full?streamid=dunaworldlive&userid=mtva"
+cs_url = "http://player.mediaklikk.hu/player/player-inside-full3.php?userid=mtva&streamid=dunaworldlive"
 cs_agent = "Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B329 Safari/8536.25"
 cs_name = xbmcaddon.Addon().getAddonInfo("id")
 cs_file = os.path.join(xbmc.translatePath("special://temp"), cs_name + ".session")

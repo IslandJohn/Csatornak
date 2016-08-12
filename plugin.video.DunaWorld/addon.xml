@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.DunaWorld" name="DunaWorld" version="0.0.2" provider-name="IslandJohn">
+<addon id="plugin.video.DunaWorld" name="DunaWorld" version="0.0.3" provider-name="IslandJohn">
 	<requires>
 		<import addon="xbmc.python" version="2.6.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
